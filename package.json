@@ -1,0 +1,26 @@
+{
+  "name": "ftpclient",
+  "productName": "Ftpclient",
+  "version": "0.0.0",
+  "description": "A FTP Client for Mac, Windows, and Linux",
+  "license": "MIT",
+  "repository": "jgkaplan/ftpclient",
+  "author": {
+    "name": "jgkaplan",
+    "email": "joshuagraykaplan@gmail.com",
+    "url": "github.com/jgkaplan"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css",
+    "main.js"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ]
+}

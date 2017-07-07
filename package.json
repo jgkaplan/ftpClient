@@ -5,6 +5,7 @@
   "description": "A FTP Client for Mac, Windows, and Linux",
   "license": "MIT",
   "repository": "jgkaplan/ftpclient",
+  "main": "main.js",
   "author": {
     "name": "jgkaplan",
     "email": "joshuagraykaplan@gmail.com",
@@ -22,5 +23,9 @@
   "keywords": [
     "electron-app",
     "electron"
-  ]
+  ],
+  "dependencies": {
+    "electron": "^1.6.11",
+    "menubar": "^5.2.3"
+  }
 }

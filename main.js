@@ -2,7 +2,7 @@ const {app, BrowserWindow, ipcMain, Tray, Menu} = require('electron');
 
 const path = require('path');
 const fs = require('fs');
-const settings = require('settings.json');
+const settings = require('./settings.json');
 
 let mainWin, tray, trayWin;
 
@@ -83,8 +83,8 @@ app.on('ready', makeTray);
 //     }
 // });
 
-app.on('activate', function(){
-    if(mainWin == null){
-        createMainWindow();
-    }
-});
+// app.on('activate', function(){
+//     if(mainWin == null){
+//         createMainWindow();
+//     }
+// });

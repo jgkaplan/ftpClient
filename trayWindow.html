@@ -3,8 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>File Transfer</title>
+    <link rel='stylesheet' href="styles/trayStyle.css" />
 </head>
 <body>
-Nice
+    <header>
+        <span id="serverName">Server</span>
+        <img src="images/eject.svg" id="btn-eject" class="btn btn-header"/>
+        <img src="images/settings.svg" id="btn-settings" class="btn btn-header"/>
+    </header>
+    <section id="files">
+        <ul id="fileList">
+            <li class="file">
+                <span class="filename">{{name}}</span>
+                <button class="button button-download">Download</button>
+                <button class="button button-edit">Edit</button>
+                <button class="button button-delete">Delete</button>
+            </li>
+            <li class="file">
+                <span class="filename">{{name}}</span>
+                <button class="button button-download">Download</button>
+                <button class="button button-edit">Edit</button>
+                <button class="button button-delete">Delete</button>
+            </li>
+            <li class="file">
+                <span class="filename">{{name}}</span>
+                <button class="button button-download">Download</button>
+                <button class="button button-edit">Edit</button>
+                <button class="button button-delete">Delete</button>
+            </li>
+        </ul>
+    </section>
+    <script>
+        window.$ = window.jQuery = require('./jquery.min.js');
+    </script>
+    <script src="scripts/index.js"></script>
 </body>
+
+<template id="file_template">
+    <li class="file">
+        <span class="filename">{{name}}</span>
+        <button class="button button-download">Download</button>
+        <button class="button button-edit">Edit</button>
+        <button class="button button-delete">Delete</button>
+    </li>
+</template>
 </html>

@@ -26,6 +26,7 @@
   ],
   "dependencies": {
     "electron": "^1.6.11",
+    "handlebars": "^4.0.10",
     "menubar": "^5.2.3"
   }
 }

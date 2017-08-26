@@ -2,7 +2,7 @@
   "name": "ftpclient",
   "productName": "Ftpclient",
   "version": "0.0.0",
-  "description": "A FTP Client for Mac, Windows, and Linux",
+  "description": "A FTP Client for Mac, Windows, and Linux. No work has been done on this yet.",
   "license": "MIT",
   "repository": "jgkaplan/ftpclient",
   "main": "main.js",

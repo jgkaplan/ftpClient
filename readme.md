@@ -2,6 +2,7 @@
 
 > An FTP client for Mac, Windows, and Linux
 
+Note: This is unlikely to be finished for a long time, if ever.
 
 ## Dev
 
